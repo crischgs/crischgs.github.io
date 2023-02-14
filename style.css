@@ -33,3 +33,13 @@ a {
     font-family: sans-serif;
     font-weight: 400;
 }
+
+.skills ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 23em;
+}
+
+.skills li {
+    display: inline-block;
+}
