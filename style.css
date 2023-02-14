@@ -1,7 +1,6 @@
 body {
     background-color: #0d1117;
     color: #ffffff;
-    margin: 50px;
 }
 
 a {
@@ -12,7 +11,9 @@ a {
 .header img {
     border-radius: 100%;
     display: block;
-    margin: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     width: 150px;
 }
 
@@ -24,8 +25,9 @@ a {
 .header p {
     text-align: center;
     font-family: sans-serif;
-    padding-left: 30%;
-    padding-right: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
 }
 
 .skills h2 {
