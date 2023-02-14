@@ -24,5 +24,6 @@ a {
 .header p {
     text-align: center;
     font-family: sans-serif;
-
+    padding-left: 30%;
+    padding-right: 30%;
 }
