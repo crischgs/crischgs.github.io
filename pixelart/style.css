@@ -52,7 +52,6 @@ header {
 
 img {
   width: 100%;
-  vertical-align: middle;
 }
 
 button {
@@ -61,7 +60,8 @@ button {
   height: 30px;
   width: 30px;
   background-color: orangered;
-  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 button:hover {
