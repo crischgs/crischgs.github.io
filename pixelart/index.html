@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Pixels Art!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="title">Paleta de Cores</h1>
+        </header>
+        <section id="colors-section">
+            <div id="color-palette">
+                <div class="selected color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+        </section>
+        <section id="random-color-section">
+            <button id="button-random-color">Cores aleatórias</button>
+        </section>
+        <section id="buttons">
+            <input type="number" id="board-size" min="1" max="50" placeholder="5-50" required>
+            <button type="submit" id="generate-board">VQV</button>
+            <button id="clear-board">Limpar</button>
+        </section>
+        <section id="canvas">
+            <div id="pixel-board">
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
