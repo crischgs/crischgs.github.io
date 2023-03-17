@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto - Pixels Art!</title>
+    <title>PixelArt!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <header>
-            <h1 id="title">Paleta de Cores</h1>
+            <h1 id="title">PixelArt!</h1>
         </header>
         <section id="colors-section">
             <div id="color-palette">
@@ -18,15 +18,14 @@
                 <div class="color"></div>
                 <div class="color"></div>
                 <div class="color"></div>
+                <button id="button-random-color"><img src="images/refresh.png" alt="Outras Cores"></button>
             </div>
         </section>
-        <section id="random-color-section">
-            <button id="button-random-color">Cores aleatórias</button>
-        </section>
         <section id="buttons">
-            <input type="number" id="board-size" min="1" max="50" placeholder="5-50" required>
-            <button type="submit" id="generate-board">VQV</button>
-            <button id="clear-board">Limpar</button>
+            <label for="board-size" id="slider-value"></label><span>&nbsp;</span>
+            <input type="range" id="board-size" min="5" max="20" required class="slider">
+            <button type="submit" id="generate-board"><img src="images/resize.png" alt="Alterar Tamanho"></button>
+            <button id="clear-board"><img src="images/trash.png" alt="Limpar Quadro"></button>
         </section>
         <section id="canvas">
             <div id="pixel-board">

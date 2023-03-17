@@ -6,6 +6,7 @@ const btnClearBoard = document.getElementById('clear-board');
 const pixelBoard = JSON.parse(localStorage.getItem('pixelBoard'));
 const userBoardSize = document.getElementById('board-size');
 const generateBoard = document.getElementById('generate-board');
+const output = document.getElementById("slider-value");
 
 const defaultColors = color => {
     if (localStorage.getItem('colorPalette') === null) {
@@ -122,3 +123,8 @@ const savedCanvas = () => {
     }
 }
 savedCanvas();
+
+output.innerHTML = userBoardSize.value;
+userBoardSize.oninput = function() {
+  output.innerHTML = this.value;
+}
