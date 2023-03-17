@@ -56,22 +56,9 @@ const defaultCanvas = size => {
 defaultCanvas();
 
 generateBoard.addEventListener('click', () => {
-    if (userBoardSize.value === '') {
-        alert('Board inválido!');
-    }
-     else if (userBoardSize.value < 5) {
-        removeCanvas();
-        makeCanvas(5);
-        clearBoard();    
-    } else if (userBoardSize.value > 50) {
-        removeCanvas();
-        makeCanvas(50);
-        clearBoard();    
-    } else {
         removeCanvas();
         makeCanvas(userBoardSize.value);
         clearBoard();
-    }
 })
 
 function makeCanvas(size) {
