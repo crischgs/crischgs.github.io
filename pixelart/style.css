@@ -26,8 +26,9 @@ header {
 }
 
 #color-palette {
-  display: inline;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .color {
@@ -60,6 +61,7 @@ button {
   height: 30px;
   width: 30px;
   background-color: orangered;
+  vertical-align: middle;
 }
 
 button:hover {
@@ -67,7 +69,9 @@ button:hover {
 }
 
 #buttons {
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #pixel-board {
