@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {
-  font-family: sans-serif;
+  font-family: 'Press Start 2P', cursive;
   margin: 0;
   padding: auto;
   box-sizing: border-box;
@@ -17,6 +18,7 @@ header {
 
 #title {
   color: white;
+  text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
 }
 
 #colors-section {
@@ -59,13 +61,17 @@ button {
   border: #222 solid 2px;
   height: 30px;
   width: 30px;
-  background-color: orangered;
+  background-color: #3a50d9;
   margin-right: 5px;
   margin-left: 5px;
 }
 
 button:hover {
   border: white solid 2px;
+}
+
+span {
+  font-size: 10px;
 }
 
 #buttons {
@@ -87,11 +93,15 @@ button:hover {
   height: 40px;
 }
 
+.pixel:hover {
+  border: #3a50d9 solid 2px;
+}
+
 .slider {
   -webkit-appearance: none;
   height: 15px;
   border-radius: 30px;  
-  background: gray;
+  background: #0a0e27;
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
@@ -102,7 +112,7 @@ button:hover {
   width: 25px;
   height: 25px;
   border-radius: 50%; 
-  background: orangered;
+  background: #3a50d9;
   cursor: pointer;
 }
 
@@ -110,6 +120,6 @@ button:hover {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: orangered;
+  background: #3a50d9;
   cursor: pointer;
 }
