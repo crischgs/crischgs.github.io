@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {
-  font-family: 'Press Start 2P', cursive;
   margin: 0;
   padding: auto;
   box-sizing: border-box;
+}
+
+main {
+  font-family: 'Press Start 2P', cursive;
 }
 
 body {
@@ -122,4 +125,10 @@ span {
   border-radius: 50%;
   background: #3a50d9;
   cursor: pointer;
+}
+
+footer {
+  font-family: sans-serif;
+  margin-top: 20px;
+  color: grey;
 }
